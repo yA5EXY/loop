@@ -5,6 +5,11 @@
     <title>無題</title>
 <html>
     <script>
-         while (true) aleart("!!")
-    </script>
+    function alertloop() { 
+        while (true) alert("")
+ }
+ window.onload = function() {
+     setTimeout(alertloop, 1000);
+ }
+ </script>
 </html>
